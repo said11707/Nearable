@@ -206,7 +206,7 @@
     this.settings = $.extend({}, DEFAULTS, options);
     this.path = path;
 
-    // https://github.com/VodkaBears/Vide/issues/110
+    // https://github.com/said11707/Nearable
     try {
       this.init();
     } catch (e) {
@@ -305,7 +305,7 @@
         '</video>');
     }
 
-    // https://github.com/VodkaBears/Vide/issues/110
+    // https://github.com/said11707/Nearable
     try {
       $video
 
@@ -472,7 +472,7 @@
       }
     });
 
-    // https://github.com/said11707
+    // https://github.com/said11707/Nearable
     $window.on('unload.' + PLUGIN_NAME, function() {
       return false;
     });
