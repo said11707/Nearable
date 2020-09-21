@@ -126,12 +126,12 @@ h1 {
 
 .logo {
   position: relative;
-  bottom: 5.5rem;
+  bottom: 4.2rem;
 }
 
 .overlay h2 {
   max-width: 40em;
-  font-size: 58px;
+  font-size: 39px;
   font-weight: 700;
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -139,13 +139,6 @@ h1 {
   margin: 0 auto;
 }
 
-.overlay p {
-  font-family: 'Raleway', sans-serif;
-  padding-top: 1em;
-  max-width: 40em;
-  margin: 0 auto;
-  color: #fff;
-}
 
 #gSignInWrapper {
   text-align: center;
@@ -160,7 +153,7 @@ h1 {
 }
 
 #gSignInWrapper .customGPlusSignIn {
-  margin-top: 4rem;
+  margin-top: 12rem;
   background-color: #4285f4;
   display: inline-block;
   border: thin solid #4285f4;
