@@ -126,7 +126,7 @@ h1 {
 
 .logo {
   position: relative;
-  bottom: 9rem;
+  bottom: 6rem;
 }
 
 .overlay h2 {
@@ -156,7 +156,7 @@ h1 {
   user-select: none;
   cursor: pointer;
   position: relative;
-  top: 9.5rem;
+  top: 7.5rem;
 }
 
 #gSignInWrapper .customGPlusSignIn {
