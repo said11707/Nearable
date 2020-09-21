@@ -42,13 +42,13 @@ header {
 
 .logo {
   position: relative;
-  bottom: 6rem;
+  bottom: 9rem;
 }
 
 .overlay h2 {
   text-transform: lowercase;
   max-width: 40em;
-  font-size: 39px;
+  font-size: 54px;
   font-weight: 700;
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -76,7 +76,7 @@ header {
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   position: relative;
-  top: 8.5rem;
+  top: 11.5rem;
 }
 
 #gSignInWrapper .customGPlusSignIn .icon {
