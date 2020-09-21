@@ -43,7 +43,7 @@ header {
 
 .logo {
   position: relative;
-  bottom: 10rem;
+  bottom: 12rem;
 }
 
 .overlay h2 {
@@ -62,51 +62,56 @@ header {
 }
 
 
-#gSignInWrapper {
-  text-align: center;
-  padding: 20px 10px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: pointer;
-}
-
-#gSignInWrapper .customGPlusSignIn {
-  background-color: #4285f4;
-  display: inline-block;
-  border: thin solid #4285f4;
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
+.google-button {
   position: relative;
-  top: 11.7rem;
+  top: 12rem;
+  height: 40px;
+  border-width: 0;
+  background: white;
+  color: #737373;
+  border-radius: 5px;
+  white-space: nowrap;
+  box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.05);
+  -webkit-transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow;
+  -webkit-transition-duration: 150ms;
+          transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  padding: 0;
+}
+.google-button:focus, .google-button:hover {
+  box-shadow: 1px 4px 5px 1px rgba(0, 0, 0, 0.1);
+}
+.google-button:active {
+  background-color: #e5e5e5;
+  box-shadow: none;
+  -webkit-transition-duration: 10ms;
+          transition-duration: 10ms;
 }
 
-#gSignInWrapper .customGPlusSignIn .icon {
-  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png") transparent 5px 5px no-repeat;
-  background-size: 42px 42px;
-  background-color: white;
+.google-button__icon {
   display: inline-block;
   vertical-align: middle;
-  width: 52px;
-  height: 52px;
+  margin: 8px 0 8px 8px;
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
 }
 
-#gSignInWrapper .customGPlusSignIn .buttonText {
-  color: white;
-  font-size: 1.2em;
-  padding: 10px 20px;
+.google-button__icon--plus {
+  width: 27px;
+}
+
+.google-button__text {
+  display: inline-block;
   vertical-align: middle;
+  padding: 0 24px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Roboto", arial, sans-serif;
 }
 
-#gSignInWrapper .customGPlusSignIn:active {
-  background-color: #3367d6;
-  border: thin solid #3367d6;
-}
-
-#gSignInWrapper .customGPlusSignIn:hover {
-  box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
-}
 
 
 /* Section footer */
