@@ -130,6 +130,7 @@ h1 {
 }
 
 .overlay h2 {
+  text-transform: lowercase;
   max-width: 40em;
   font-size: 39px;
   font-weight: 700;
