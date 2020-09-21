@@ -57,8 +57,8 @@ header {
   -webkit-text-stroke-width:3px white;
   line-height: 1.3;
   margin: 0 auto;
-  -webkit-text-stroke: 3px #82358C;
-  text-transform: lowercase;
+  /* -webkit-text-stroke: 3px #82358C;
+  text-transform: lowercase; */
 }
 
 
@@ -79,7 +79,7 @@ header {
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   position: relative;
-  top: 11rem;
+  top: 11.5rem;
 }
 
 #gSignInWrapper .customGPlusSignIn .icon {
