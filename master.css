@@ -42,7 +42,7 @@ header {
 
 .logo {
   position: relative;
-  bottom: 9rem;
+  bottom: 7rem;
 }
 
 .overlay h2 {
@@ -76,7 +76,7 @@ header {
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   position: relative;
-  top: 11.5rem;
+  top: 8.5rem;
 }
 
 #gSignInWrapper .customGPlusSignIn .icon {
