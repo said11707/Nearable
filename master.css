@@ -126,7 +126,7 @@ h1 {
 
 .logo {
   position: relative;
-  bottom: 4.5rem;
+  bottom: 5.5rem;
 }
 
 .overlay h2 {
@@ -160,6 +160,7 @@ h1 {
 }
 
 #gSignInWrapper .customGPlusSignIn {
+  margin-top: 4rem;
   background-color: #4285f4;
   display: inline-block;
   border: thin solid #4285f4;
